@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/blackTagDevs-Landing/static/css/main.dcb487fd.css",
-    "main.js": "/blackTagDevs-Landing/static/js/main.35d4bfcb.js",
+    "main.js": "/blackTagDevs-Landing/static/js/main.c42e8fa6.js",
     "static/media/Mt_Baker.mp4": "/blackTagDevs-Landing/static/media/Mt_Baker.f91c1c1426feb2cde865.mp4",
     "static/media/pawel-nolbert.jpg": "/blackTagDevs-Landing/static/media/pawel-nolbert.8d44cda36f22520ed146.jpg",
     "static/media/painter.png": "/blackTagDevs-Landing/static/media/painter.3d8d614283e472d2b7a8.png",
@@ -200,6 +200,6 @@
   },
   "entrypoints": [
     "static/css/main.dcb487fd.css",
-    "static/js/main.35d4bfcb.js"
+    "static/js/main.c42e8fa6.js"
   ]
 }
