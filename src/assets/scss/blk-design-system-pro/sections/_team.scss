@@ -1,28 +1,28 @@
-.team-2{
-    .card{
-        .card-title{
-            margin: 10px 0 0;
-        }
-        h6{
-            margin-top: 5px;
-        }
+.team-2 {
+  .card {
+    .card-title {
+      margin: 10px 0 0;
     }
+    h6 {
+      margin-top: 5px;
+    }
+  }
 
-    // [class*="col-md-"]:nth-child(2){
-    //     margin-top: -50px;
-    // }
+  // [class*="col-md-"]:nth-child(2){
+  //     margin-top: -50px;
+  // }
 }
 
-.team-3{
+.team-3 {
   .card.card-profile {
     .card-image a > img {
-        border-radius: 0;
-        border-bottom-left-radius: $border-radius-sm;
-        border-top-left-radius: $border-radius-sm;
+      border-radius: 0;
+      border-bottom-left-radius: $border-radius-sm;
+      border-top-left-radius: $border-radius-sm;
     }
 
     .card-title {
-        margin-top: 15px;
+      margin-top: 15px;
     }
 
     &[data-background="full"] {
@@ -33,41 +33,43 @@
   }
 }
 
+.team-4 {
+  .card {
+    text-align: left;
 
-.team-4{
-    .card{
-        text-align: left;
-
-        .footer{
-            margin-top: 0;
-        }
+    .footer {
+      margin-top: 0;
     }
+  }
 }
 
 .team-5 {
-    h5.description{
-        margin-bottom: 100px;
-    }
+  h5.description {
+    margin-bottom: 100px;
+  }
 
-    [class*="col-md-"]{
-        margin-top: 50px;
+  [class*="col-md-"] {
+    margin-top: 50px;
 
-        &:nth-child(2){
-            margin-top: 95px;
-        }
+    &:nth-child(2) {
+      margin-top: 95px;
     }
+    &:nth-child(4) {
+      margin-top: 95px;
+    }
+  }
 
-    .card.card-profile{
-        .card-title + .category{
-            margin-bottom: .625rem;
-        }
+  .card.card-profile {
+    .card-title + .category {
+      margin-bottom: 0.625rem;
     }
+  }
 }
 
 .carousel-team {
   margin-top: 100px;
 
-  [class*="col-md-"]{
+  [class*="col-md-"] {
     padding: 0;
   }
 
@@ -91,7 +93,7 @@
       .category {
         text-align: right;
         padding-right: 30px;
-        font-size: .9rem;
+        font-size: 0.9rem;
         text-transform: uppercase;
       }
 
@@ -119,30 +121,28 @@
 
   .carousel-control-next {
     left: 20%;
-
   }
 }
 
-@media screen and (max-width:991px){
-
-  .team-1{
+@media screen and (max-width: 991px) {
+  .team-1 {
     .carousel-team .wrapper {
       margin-top: 0px;
     }
 
-    .carousel-team .carousel-inner .wrapper .description{
+    .carousel-team .carousel-inner .wrapper .description {
       padding: 15px;
     }
   }
-  .team-3 .card-profile[data-background=full] {
+  .team-3 .card-profile[data-background="full"] {
     height: 550px;
   }
 
-  .team-5{
-    .card{
-      .card-footer{
+  .team-5 {
+    .card {
+      .card-footer {
         text-align: center;
-        div{
+        div {
           float: none !important;
         }
       }
@@ -150,33 +150,32 @@
   }
 }
 
-@media screen and (max-width:768px){
-  .team-1{
-    .carousel-team .carousel-control-next, .carousel-team .carousel-control-prev{
+@media screen and (max-width: 768px) {
+  .team-1 {
+    .carousel-team .carousel-control-next,
+    .carousel-team .carousel-control-prev {
       top: 96%;
     }
   }
 
-  .team-2{
-    .card-image{
-      img{
+  .team-2 {
+    .card-image {
+      img {
         width: 100%;
       }
     }
   }
 
-  .team-3 .card-profile[data-background=full] {
+  .team-3 .card-profile[data-background="full"] {
     height: auto;
-      a{
-        height: 100%;
-      }
+    a {
+      height: 100%;
+    }
   }
 }
 
-@media screen and (max-width:576px){
-
-
-    .team-1 .carousel-team .wrapper {
+@media screen and (max-width: 576px) {
+  .team-1 .carousel-team .wrapper {
     margin-top: 15px;
-}
   }
+}

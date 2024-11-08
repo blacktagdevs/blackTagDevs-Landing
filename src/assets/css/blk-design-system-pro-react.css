@@ -19692,6 +19692,11 @@ html {
   margin-top: 95px;
 }
 
+.team-5 [class*="col-md-"]:nth-child(4) {
+  margin-top: 95px;
+}
+
+
 .team-5 .card.card-profile .card-title + .category {
   margin-bottom: 0.625rem;
 }

@@ -37,6 +37,9 @@ import Cards from "./IndexSections/Cards.js";
 import PlainCards from "./IndexSections/PlainCards.js";
 import JavaScript from "./IndexSections/JavaScript.js";
 import NucleoIcons from "./IndexSections/NucleoIcons.js";
+import Teams from "views/SectionsSections/Teams.js";
+import ContactUs from "./SectionsSections/ContactUs.js";
+import Features from "./SectionsSections/Features.js";
 
 export default function Index() {
   const wrapper = React.useRef(null);
@@ -51,24 +54,12 @@ export default function Index() {
   }, []);
   return (
     <>
-      <ColorNavbar />
       <div className="wrapper" ref={wrapper}>
         <IndexHeader />
         <div className="main">
-          <Basic />
-          <Navbars />
-          <Tabs />
-          <Pills />
-          <Pagination />
-          <Notifications />
-          <PreFooter />
-          <Footers />
-          <Typography />
-          <ContentAreas />
-          <Cards />
-          <PlainCards />
-          <JavaScript />
-          <NucleoIcons />
+          <Teams />
+          <Features />
+          <ContactUs />
         </div>
         <DemoFooter />
       </div>

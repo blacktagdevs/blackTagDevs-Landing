@@ -28,10 +28,7 @@ export default function Features() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <Badge color="primary" pill>
-                  Insight
-                </Badge>
-                <h1 className="title">Full-Funnel Social Analytics</h1>
+                <h1 className="title">Companies we have worked with</h1>
               </Col>
             </Row>
             <Row>
@@ -43,9 +40,14 @@ export default function Features() {
                       className="bg-blob"
                       src={require("assets/img/feature-blob/primary.png")}
                     />
-                    <i className="tim-icons icon-user-run" />
+                    <img
+                      alt="..."
+                      width={80}
+                      height={80}
+                      src={require("assets/blacktag/microsoft.png")}
+                    />{" "}
                   </div>
-                  <h4 className="info-title">Social Conversations</h4>
+                  <h4 className="info-title">Microsoft</h4>
                   <p className="description">
                     Gain access to the demographics, psychographics, and
                     location of unique people.
@@ -60,9 +62,14 @@ export default function Features() {
                       className="bg-blob"
                       src={require("assets/img/feature-blob/success.png")}
                     />
-                    <i className="tim-icons icon-atom" />
+                    <img
+                      alt="..."
+                      width={80}
+                      height={80}
+                      src={require("assets/blacktag/amex.png")}
+                    />{" "}
                   </div>
-                  <h4 className="info-title">Analyze Performance</h4>
+                  <h4 className="info-title">American Express</h4>
                   <p className="description">
                     Unify data from Facebook, Instagram, Twitter, LinkedIn, and
                     Youtube to gain rich insights.
@@ -77,9 +84,14 @@ export default function Features() {
                       className="bg-blob"
                       src={require("assets/img/feature-blob/warning.png")}
                     />
-                    <i className="tim-icons icon-gift-2" />
+                    <img
+                      alt="..."
+                      width={80}
+                      height={80}
+                      src={require("assets/blacktag/accenture.png")}
+                    />{" "}
                   </div>
-                  <h4 className="info-title">Measure Conversions</h4>
+                  <h4 className="info-title">Accenture</h4>
                   <p className="description">
                     Track actions taken on your website, understand the impact
                     on your bottom line.
@@ -90,324 +102,9 @@ export default function Features() {
           </Container>
         </div>
         {/* ********* END FEATURES 1 ********* */}
-        {/* ********* FEATURES 2 ********* */}
-        <div className="features-2">
-          <Container>
-            <Row className="align-items-center">
-              <Col className="mr-auto text-left" lg="3" md="8">
-                <h1 className="title">You should be here!</h1>
-                <p className="description">
-                  5,000 capacity venue, holding some of the latest technology
-                  lighting with a 24 colour laser system Amnesia is one of the
-                  islands most legendary clubs.
-                </p>
-                <Button
-                  className="btn-simple"
-                  color="info"
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  Learn more <i className="tim-icons icon-alert-circle-exc" />
-                </Button>
-              </Col>
-              <Col lg="8" md="12">
-                <Row>
-                  <Col lg="4" md="4">
-                    <div className="info text-left bg-info">
-                      <div className="icon icon-white">
-                        <i className="tim-icons icon-satisfied" />
-                      </div>
-                      <h4 className="info-title">Best Quality</h4>
-                      <p className="description">
-                        Gain access to the demographics, psychographics, and
-                        location of unique people.
-                      </p>
-                    </div>
-                  </Col>
-                  <Col lg="4" md="4">
-                    <div className="info text-left bg-danger info-raised">
-                      <div className="icon icon-white">
-                        <i className="tim-icons icon-palette" />
-                      </div>
-                      <h4 className="info-title">Awesome Design</h4>
-                      <p className="description">
-                        Gain access to the demographics, psychographics, and
-                        location of unique people.
-                      </p>
-                    </div>
-                  </Col>
-                  <Col lg="4" md="4">
-                    <div className="info text-left bg-default">
-                      <div className="icon icon-white">
-                        <i className="tim-icons icon-spaceship" />
-                      </div>
-                      <h4 className="info-title">Great Performance</h4>
-                      <p className="description">
-                        Gain access to the demographics, psychographics, and
-                        location of unique people.
-                      </p>
-                    </div>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col lg="4" md="4">
-                    <div className="info text-left bg-primary">
-                      <div className="icon icon-white">
-                        <i className="tim-icons icon-user-run" />
-                      </div>
-                      <h4 className="info-title">Fast Development</h4>
-                      <p className="description">
-                        Gain access to the demographics, psychographics, and
-                        location of unique people.
-                      </p>
-                    </div>
-                  </Col>
-                  <Col lg="4" md="4">
-                    <div className="info text-left bg-warning info-raised">
-                      <div className="icon icon-white">
-                        <i className="tim-icons icon-bulb-63" />
-                      </div>
-                      <h4 className="info-title">Super Fresh</h4>
-                      <p className="description">
-                        Gain access to the demographics, psychographics, and
-                        location of unique people.
-                      </p>
-                    </div>
-                  </Col>
-                  <Col lg="4" md="4">
-                    <div className="info text-left bg-success">
-                      <div className="icon icon-default">
-                        <i className="tim-icons icon-paper" />
-                      </div>
-                      <h4 className="info-title text-muted">
-                        Organized Content
-                      </h4>
-                      <p className="description text-muted">
-                        Gain access to the demographics, psychographics, and
-                        location of unique people.
-                      </p>
-                    </div>
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-        {/* ********* END FEATURES 2 ********* */}
-        {/* ********* FEATURES 3 ********* */}
-        <div className="features-3">
-          <Container fluid>
-            <Row>
-              <Col className="mr-auto ml-auto" md="6">
-                <h1 className="title">Trello lets you work more.</h1>
-                <h4 className="description">
-                  Trello’s boards, lists, and cards enable you to organize and
-                  prioritize your projects in a fun, flexible and rewarding way.
-                </h4>
-              </Col>
-            </Row>
-            <Row>
-              <Col className="ml-auto" md="5">
-                <div className="info info-horizontal">
-                  <div className="icon icon-success">
-                    <img
-                      alt="..."
-                      className="bg-blob"
-                      src={require("assets/img/feature-blob/success.png")}
-                    />
-                    <i className="tim-icons icon-html5" />
-                  </div>
-                  <div className="description">
-                    <h3 className="info-title">For Developers</h3>
-                    <p>
-                      The moment you use Black Kit, you know you’ve never felt
-                      anything like it. With a single use, this powerfull UI Kit
-                      lets you do more than ever before.
-                    </p>
-                    <Button
-                      className="btn-link"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      Explore now <i className="tim-icons icon-minimal-right" />
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-              <Col className="mr-auto" md="5">
-                <div className="info info-horizontal">
-                  <div className="icon icon-warning">
-                    <img
-                      alt="..."
-                      className="bg-blob"
-                      src={require("assets/img/feature-blob/warning.png")}
-                    />
-                    <i className="tim-icons icon-heart-2" />
-                  </div>
-                  <div className="description">
-                    <h3 className="info-title">For Designers</h3>
-                    <p>
-                      The moment you use Black Kit, you know you’ve never felt
-                      anything like it. With a single use, this powerfull UI Kit
-                      lets you do more than ever before.
-                    </p>
-                    <Button
-                      className="btn-link"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      Explore now <i className="tim-icons icon-minimal-right" />
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col className="ml-auto" md="5">
-                <div className="info info-horizontal">
-                  <div className="icon icon-danger">
-                    <img
-                      alt="..."
-                      className="bg-blob"
-                      src={require("assets/img/feature-blob/danger.png")}
-                    />
-                    <i className="tim-icons icon-chart-bar-32" />
-                  </div>
-                  <div className="description">
-                    <h3 className="info-title">For Bootstrap Lovers</h3>
-                    <p>
-                      The moment you use Black Kit, you know you’ve never felt
-                      anything like it. With a single use, this powerfull UI Kit
-                      lets you do more than ever before.
-                    </p>
-                    <Button
-                      className="btn-link"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      Explore now <i className="tim-icons icon-minimal-right" />
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-              <Col className="mr-auto" md="5">
-                <div className="info info-horizontal">
-                  <div className="icon icon-info">
-                    <img
-                      alt="..."
-                      className="bg-blob"
-                      src={require("assets/img/feature-blob/info.png")}
-                    />
-                    <i className="tim-icons icon-paper" />
-                  </div>
-                  <div className="description">
-                    <h3 className="info-title">
-                      Documentation{" "}
-                      <Badge color="info" pill>
-                        v2.0
-                      </Badge>
-                    </h3>
-                    <p>
-                      The moment you use Black Kit, you know you’ve never felt
-                      anything like it. With a single use, this powerfull UI Kit
-                      lets you do more than ever before.
-                    </p>
-                    <Button
-                      className="btn-link"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      Explore now <i className="tim-icons icon-minimal-right" />
-                    </Button>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
+
         {/* ********* END FEATURES 3 ********* */}
-        {/* ********* FEATURES 4 ********* */}
-        <div className="features-4">
-          <Container>
-            <Row className="align-items-center">
-              <Col className="mr-auto text-left" lg="3">
-                <h1 className="title">You should be here!</h1>
-                <p className="description">
-                  5,000 capacity venue, holding some of the latest technology
-                  lighting with a 24 colour laser system Amnesia is one of the
-                  islands most legendary clubs.
-                </p>
-                <Button
-                  className="mt-3"
-                  color="primary"
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  Learn more <i className="tim-icons icon-double-right" />
-                </Button>
-              </Col>
-              <Col className="p-sm-0" lg="8">
-                <Row>
-                  <Col md="6">
-                    <div className="info info-primary">
-                      <div className="icon icon-white">
-                        <i className="tim-icons icon-satisfied" />
-                      </div>
-                      <h4 className="info-title">Best Quality</h4>
-                      <p className="description">
-                        Gain access to the demographics, psychographics, and
-                        location of unique people.
-                      </p>
-                    </div>
-                  </Col>
-                  <Col md="6">
-                    <div className="info info-primary">
-                      <div className="icon icon-white">
-                        <i className="tim-icons icon-palette" />
-                      </div>
-                      <h4 className="info-title">Awesome Design</h4>
-                      <p className="description">
-                        Gain access to the demographics, psychographics, and
-                        location of unique people.
-                      </p>
-                    </div>
-                  </Col>
-                </Row>
-                <Row>
-                  <Col md="6">
-                    <div className="info info-primary">
-                      <div className="icon icon-white">
-                        <i className="tim-icons icon-user-run" />
-                      </div>
-                      <h4 className="info-title">Fast Development</h4>
-                      <p className="description">
-                        Gain access to the demographics, psychographics, and
-                        location of unique people.
-                      </p>
-                    </div>
-                  </Col>
-                  <Col md="6">
-                    <div className="info info-primary">
-                      <div className="icon icon-white">
-                        <i className="tim-icons icon-bulb-63" />
-                      </div>
-                      <h4 className="info-title">Super Fresh</h4>
-                      <p className="description">
-                        Gain access to the demographics, psychographics, and
-                        location of unique people.
-                      </p>
-                    </div>
-                  </Col>
-                </Row>
-              </Col>
-            </Row>
-          </Container>
-        </div>
-        {/* ********* END FEATURES 4 ********* */}
+
         {/* ********* FEATURES 5 ********* */}
         <div className="features features-5">
           <Container>
@@ -423,50 +120,53 @@ export default function Features() {
                 </div>
               </Col>
               <Col className="mt-md-5" lg="6">
-                <h6 className="category">Read this first</h6>
                 <h1 className="title">Company values</h1>
                 <Row>
                   <Col lg="6" md="6">
                     <div className="info">
-                      <h4 className="info-title">Honest</h4>
+                      <h4 className="info-title">Honesty</h4>
                       <p className="description">
-                        Gain access to the demographics, psychographics, and
-                        location of unique people.
+                        We believe in transparent, accurate, and ethical data
+                        usage. We are committed to providing clear insights and
+                        honest representation of the demographics,
+                        psychographics, and location data we offer, ensuring
+                        that our clients can trust us with their decisions.
                       </p>
                     </div>
                     <div className="info">
-                      <h4 className="info-title">Efficient</h4>
+                      <h4 className="info-title">Efficiency</h4>
                       <p className="description">
-                        Gain access to the demographics, psychographics, and
-                        location of unique people.
+                        We value delivering high-quality data and insights with
+                        speed and precision. Our goal is to streamline the
+                        process of gaining access to vital demographic,
+                        psychographic, and location information, empowering our
+                        clients to act quickly and confidently.
                       </p>
                     </div>
                   </Col>
                   <Col lg="6" md="6">
                     <div className="info">
-                      <h4 className="info-title">Helpful</h4>
+                      <h4 className="info-title">Customer Focused</h4>
                       <p className="description">
-                        Gain access to the demographics, psychographics, and
-                        location of unique people.
+                        We are dedicated to being helpful in every aspect of our
+                        work. By understanding the unique needs of our clients
+                        and offering tailored insights into demographics,
+                        psychographics, and locations, we aim to provide
+                        solutions that drive success and foster long-term
+                        partnerships.
                       </p>
                     </div>
                     <div className="info">
                       <h4 className="info-title">Quality</h4>
                       <p className="description">
-                        Gain access to the demographics, psychographics, and
-                        location of unique people.
+                        We hold ourselves to the highest standards of quality.
+                        We ensure that the data we provide is reliable,
+                        accurate, and actionable, supporting our clients in
+                        making informed, strategic decisions based on
+                        comprehensive, precise insights.
                       </p>
                     </div>
                   </Col>
-                  <Button
-                    className="btn-link ml-4"
-                    color="primary"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                  >
-                    Why we are different{" "}
-                    <i className="tim-icons icon-double-right" />
-                  </Button>
                 </Row>
               </Col>
             </Row>
@@ -483,7 +183,7 @@ export default function Features() {
                     <i className="tim-icons icon-atom" />
                   </div>
                   <div className="description">
-                    <h3 className="info-title">For Developers</h3>
+                    <h3 className="info-title">Development</h3>
                     <p>
                       The moment you use Black Kit, you know you’ve never felt
                       anything like it. With a single use, this powerfull UI Kit
@@ -496,7 +196,7 @@ export default function Features() {
                     <i className="tim-icons icon-app" />
                   </div>
                   <div className="description">
-                    <h3 className="info-title">For Designers</h3>
+                    <h3 className="info-title">Security</h3>
                     <p>
                       The moment you use Black Kit, you know you’ve never felt
                       anything like it. With a single use, this powerfull UI Kit
@@ -509,7 +209,7 @@ export default function Features() {
                     <i className="tim-icons icon-bell-55" />
                   </div>
                   <div className="description">
-                    <h3 className="info-title">For Beginners</h3>
+                    <h3 className="info-title">Mangement</h3>
                     <p>
                       The moment you use Black Kit, you know you’ve never felt
                       anything like it. With a single use, this powerfull UI Kit

@@ -32,8 +32,15 @@ export default function Index() {
         <div className="squares square7" />
         <Container>
           <div className="content-center brand">
-            <h1 className="h1-seo">BLK• PRO React</h1>
-            <h3>All components</h3>
+            <h1 className="h1-seo">
+              BlackTagDevs{" "}
+              <img
+                src={require("assets/blacktag/simpleLogo.png")}
+                alt=""
+                style={{ filter: "invert(1)" }}
+              />
+            </h1>
+            <h3>Information technology consulting</h3>
           </div>
         </Container>
       </div>
