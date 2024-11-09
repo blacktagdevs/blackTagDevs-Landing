@@ -54,7 +54,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/index" element={<Index />} />
+      <Route path="/" element={<Index />} />
       <Route path="/presentation" element={<Presentation />} />
       <Route path="/sections" element={<Sections />} />
       <Route path="/about-us" element={<AboutUs />} />
@@ -75,7 +75,7 @@ root.render(
       <Route path="/invoice-page" element={<InvoicePage />} />
       <Route path="/checkout-page" element={<CheckoutPage />} />
       <Route path="/chat-page" element={<ChatPage />} />
-      <Route path="/" element={<Navigate to="/presentation" replace />} />
+      <Route path="/" element={<Navigate to="/" replace />} />
     </Routes>
   </BrowserRouter>
 );
