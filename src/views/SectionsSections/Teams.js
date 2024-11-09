@@ -295,8 +295,9 @@ export default function Teams() {
                       Senior Fullstack Engineer
                     </h6>
                     <p className="card-description">
-                      Multi-Cloud Object Storage and Data Mobility: A GigaOm
-                      Market Landscape Report has been announced...
+                      A seasoned engineer specializing in multi-cloud storage
+                      solutions, enhancing scalability and data accessibility
+                      across diverse cloud environments.
                     </p>
                   </CardBody>
                   <CardFooter>
@@ -304,8 +305,8 @@ export default function Teams() {
                       <Button
                         className="btn-icon btn-round mr-1"
                         color="linkedin"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://www.linkedin.com/company/blacktagdevs/"
+                        target="_blank"
                       >
                         <i className="fab fa-linkedin" />
                       </Button>
@@ -337,8 +338,9 @@ export default function Teams() {
                       Cyber Security Engineer
                     </h6>
                     <p className="card-description">
-                      Over the years, advancement in CRM technology has reshaped
-                      the way SMBs and SMEs manage their workflows...
+                      Strengthens digital defenses through strategic security
+                      measures, safeguarding critical systems from evolving
+                      cyber threats.
                     </p>
                   </CardBody>
                   <CardFooter>
@@ -346,8 +348,8 @@ export default function Teams() {
                       <Button
                         className="btn-icon btn-round mr-1"
                         color="linkedin"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://www.linkedin.com/in/cameron-johnson-904878128/"
+                        target="_blank"
                       >
                         <i className="fab fa-linkedin" />
                       </Button>
@@ -379,8 +381,9 @@ export default function Teams() {
                     <CardTitle tag="h3">Daniel Uyo</CardTitle>
                     <h6 className="category text-primary">Product Manager</h6>
                     <p className="card-description">
-                      Scaling DevOps: Strategy &amp; Technical Considerations
-                      for Successful Enterprise DevOps
+                      Drives innovation in DevOps, enabling enterprises to
+                      streamline workflows and achieve faster, reliable
+                      development cycles.
                     </p>
                   </CardBody>
                   <CardFooter>
@@ -388,8 +391,8 @@ export default function Teams() {
                       <Button
                         className="btn-icon btn-round mr-1"
                         color="linkedin"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://www.linkedin.com/in/daniel-uyo/"
+                        target="_blank"
                       >
                         <i className="fab fa-linkedin" />
                       </Button>
@@ -421,8 +424,9 @@ export default function Teams() {
                       Fullstack Software Engineer
                     </h6>
                     <p className="card-description">
-                      Over the years, advancement in CRM technology has reshaped
-                      the way SMBs and SMEs manage their workflows...
+                      Combines front-end creativity with back-end expertise to
+                      deliver full-service solutions that optimize CRM
+                      technologies for SMBs.
                     </p>
                   </CardBody>
                   <CardFooter>
@@ -430,8 +434,8 @@ export default function Teams() {
                       <Button
                         className="btn-icon btn-round mr-1"
                         color="linkedin"
-                        href="#pablo"
-                        onClick={(e) => e.preventDefault()}
+                        href="https://www.linkedin.com/in/jamar-mitchell-456b18b5/"
+                        target="_blank"
                       >
                         <i className="fab fa-linkedin" />
                       </Button>

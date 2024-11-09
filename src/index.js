@@ -54,28 +54,55 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/index" element={<Index />} />
-      <Route path="/presentation" element={<Presentation />} />
-      <Route path="/sections" element={<Sections />} />
-      <Route path="/about-us" element={<AboutUs />} />
-      <Route path="/blog-post" element={<BlogPost />} />
-      <Route path="/blog-posts" element={<BlogPosts />} />
-      <Route path="/contact-us" element={<ContactUs />} />
-      <Route path="/landing-page" element={<LandingPage />} />
-      <Route path="/pricing" element={<Pricing />} />
-      <Route path="/ecommerce" element={<Ecommerce />} />
-      <Route path="/product-page" element={<ProductPage />} />
-      <Route path="/profile-page" element={<ProfilePage />} />
-      <Route path="/404-error" element={<Error404 />} />
-      <Route path="/500-error" element={<Error500 />} />
-      <Route path="/account-settings" element={<AccountSettings />} />
-      <Route path="/login-page" element={<LoginPage />} />
-      <Route path="/register-page" element={<RegisterPage />} />
-      <Route path="/reset-page" element={<ResetPage />} />
-      <Route path="/invoice-page" element={<InvoicePage />} />
-      <Route path="/checkout-page" element={<CheckoutPage />} />
-      <Route path="/chat-page" element={<ChatPage />} />
-      <Route path="/" element={<Navigate to="/index" replace />} />
+      <Route path="blackTagDevs-Landing/index" element={<Index />} />
+      <Route
+        path="blackTagDevs-Landing/presentation"
+        element={<Presentation />}
+      />
+      <Route path="blackTagDevs-Landing/sections" element={<Sections />} />
+      <Route path="blackTagDevs-Landing/about-us" element={<AboutUs />} />
+      <Route path="blackTagDevs-Landing/blog-post" element={<BlogPost />} />
+      <Route path="blackTagDevs-Landing/blog-posts" element={<BlogPosts />} />
+      <Route path="blackTagDevs-Landing/contact-us" element={<ContactUs />} />
+      <Route
+        path="blackTagDevs-Landing/landing-page"
+        element={<LandingPage />}
+      />
+      <Route path="blackTagDevs-Landing/pricing" element={<Pricing />} />
+      <Route path="blackTagDevs-Landing/ecommerce" element={<Ecommerce />} />
+      <Route
+        path="blackTagDevs-Landing/product-page"
+        element={<ProductPage />}
+      />
+      <Route
+        path="blackTagDevs-Landing/profile-page"
+        element={<ProfilePage />}
+      />
+      <Route path="blackTagDevs-Landing/404-error" element={<Error404 />} />
+      <Route path="blackTagDevs-Landing/500-error" element={<Error500 />} />
+      <Route
+        path="blackTagDevs-Landing/account-settings"
+        element={<AccountSettings />}
+      />
+      <Route path="blackTagDevs-Landing/login-page" element={<LoginPage />} />
+      <Route
+        path="blackTagDevs-Landing/register-page"
+        element={<RegisterPage />}
+      />
+      <Route path="blackTagDevs-Landing/reset-page" element={<ResetPage />} />
+      <Route
+        path="blackTagDevs-Landing/invoice-page"
+        element={<InvoicePage />}
+      />
+      <Route
+        path="blackTagDevs-Landing/checkout-page"
+        element={<CheckoutPage />}
+      />
+      <Route path="blackTagDevs-Landing/chat-page" element={<ChatPage />} />
+      <Route
+        path="blackTagDevs-Landing/"
+        element={<Navigate to="blackTagDevs-Landing/index" replace />}
+      />
     </Routes>
   </BrowserRouter>
 );
