@@ -103,6 +103,7 @@ root.render(
         path="blackTagDevs-Landing/"
         element={<Navigate to="blackTagDevs-Landing/index" replace />}
       />
+
     </Routes>
   </BrowserRouter>
 );

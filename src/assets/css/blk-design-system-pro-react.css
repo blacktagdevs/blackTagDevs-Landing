@@ -11148,6 +11148,7 @@ button.bg-darker:focus {
 
 .text-justify {
   /* text-align: justify !important; */
+
 }
 
 .text-wrap {
@@ -18963,6 +18964,7 @@ a.badge-success.focus {
 .info-horizontal .description {
   overflow: hidden;
   /* text-align: justify; */
+
 }
 
 .icon.icon-primary {

@@ -11,6 +11,7 @@ $enable-print-styles: true !default;
 // Color system
 
 $white: #ffffff !default;
+
 $gray-100: #f6f9fc !default;
 $gray-200: #e9ecef !default;
 $gray-300: #e3e3e3 !default;
@@ -66,6 +67,7 @@ $opacity-8: rgba(255, 255, 255, 0.8) !default;
 
 $opacity-1: rgba(255, 255, 255, 0.1) !default;
 $opacity-2: rgba(255, 255, 255, 0.2) !default;
+
 
 // end beniamin
 
@@ -222,6 +224,7 @@ $yiq-contrasted-threshold: 200 !default;
 $yiq-text-dark: $gray-900 !default;
 $yiq-text-light: $white !default;
 
+
 // Action colors
 
 $star-rating-color: $gray-400 !default;
@@ -230,6 +233,7 @@ $star-rating-color-active: $yellow !default;
 $favorite-color: $yellow !default;
 $like-color: $blue !default;
 $love-color: $red !default;
+
 
 // Body
 
@@ -257,6 +261,7 @@ $link-decoration: none !default;
 $link-hover-color: darken($link-color, 15%);
 $link-hover-decoration: none !default;
 
+
 // Grid breakpoints
 
 $grid-breakpoints: (
@@ -265,14 +270,17 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
+
 );
 
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 @include _assert-starts-at-zero($grid-breakpoints);
 
+
 // Grid containers
 //
 // Define the maximum width of `.container` for different screen sizes.
+
 
 // Spacing
 
@@ -326,6 +334,7 @@ $padding-input-horizontal: 19px !default;
 
 $margin-lg-vertical: 30px !default;
 $margin-base-vertical: 15px !default;
+
 
 // This variable affects the `.h-*` and `.w-*` classes.
 
@@ -784,6 +793,7 @@ $navbar-padding: 10px 15px !default;
 // Alerts
 
 $alert-padding-y: 0.9rem !default;
+
 $alert-padding-x: 1.25rem !default;
 $alert-border-radius: $border-radius-sm !default;
 
@@ -908,6 +918,7 @@ $card-bg: $white !default;
 $card-black-background: #1f2251 !default;
 $card-img-overlay-padding: 1.25rem !default;
 
+
 //$card-group-margin:                 ($grid-gutter-width / 2);
 //$card-deck-margin:                  $card-group-margin !default;
 
@@ -967,6 +978,7 @@ $progress-border-radius: $border-radius-xl !default;
 $progress-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.3) !default;
 $progress-bar-color: $white !default;
 
+
 // Datepicker
 
 $datepicker-border-radius: $card-border-radius !default;
@@ -992,6 +1004,7 @@ $datepicker-range-cell-focused-background: darken(
   $datepicker-range-background,
   5%
 );
+
 $datepicker-range-color: $white !default;
 $datepicker-range-highlighted-bg: $gray-200 !default;
 
@@ -1002,6 +1015,7 @@ $datepicker-highlighted-bg: $datepicker-active-background !default;
 // Footer
 
 $footer-link-font-size: 0.85rem !default;
+
 $footer-bg: theme-color("secondary") !default;
 $footer-color: $gray-600 !default;
 $footer-link-color: $gray-600 !default;

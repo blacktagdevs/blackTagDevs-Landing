@@ -190,6 +190,7 @@ export default function Features() {
                       From fullstack engineering to CRM integration, our
                       developers ensure that systems are both scalable and
                       responsive, meeting the unique needs of every client.
+
                     </p>
                   </div>
                 </div>
@@ -206,6 +207,7 @@ export default function Features() {
                       potential threats. By addressing risks proactively, we
                       help businesses operate with confidence in an increasingly
                       complex digital landscape.
+
                     </p>
                   </div>
                 </div>
@@ -222,6 +224,7 @@ export default function Features() {
                       our managers ensure that projects align with business
                       goals, enabling organizations to drive growth and
                       efficiency.
+
                     </p>
                   </div>
                 </div>

@@ -307,6 +307,7 @@ export default function Teams() {
                         color="linkedin"
                         href="https://www.linkedin.com/company/blacktagdevs/"
                         target="_blank"
+
                       >
                         <i className="fab fa-linkedin" />
                       </Button>
@@ -341,6 +342,7 @@ export default function Teams() {
                       Strengthens digital defenses through strategic security
                       measures, safeguarding critical systems from evolving
                       cyber threats.
+
                     </p>
                   </CardBody>
                   <CardFooter>
@@ -350,6 +352,7 @@ export default function Teams() {
                         color="linkedin"
                         href="https://www.linkedin.com/in/cameron-johnson-904878128/"
                         target="_blank"
+
                       >
                         <i className="fab fa-linkedin" />
                       </Button>
@@ -384,6 +387,7 @@ export default function Teams() {
                       Drives innovation in DevOps, enabling enterprises to
                       streamline workflows and achieve faster, reliable
                       development cycles.
+
                     </p>
                   </CardBody>
                   <CardFooter>
@@ -427,6 +431,7 @@ export default function Teams() {
                       Combines front-end creativity with back-end expertise to
                       deliver full-service solutions that optimize CRM
                       technologies for SMBs.
+
                     </p>
                   </CardBody>
                   <CardFooter>
@@ -436,6 +441,7 @@ export default function Teams() {
                         color="linkedin"
                         href="https://www.linkedin.com/in/jamar-mitchell-456b18b5/"
                         target="_blank"
+
                       >
                         <i className="fab fa-linkedin" />
                       </Button>

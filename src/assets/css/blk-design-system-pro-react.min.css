@@ -10291,6 +10291,7 @@ button.bg-darker:focus {
 }
 .text-justify {
   /* text-align: justify !important; */
+
 }
 .text-wrap {
   white-space: normal !important;
@@ -17621,6 +17622,7 @@ a.badge-success.focus {
 }
 .info-horizontal .description {
   overflow: hidden;
+
 }
 .icon.icon-primary {
   color: #e14eca;

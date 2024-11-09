@@ -41,6 +41,7 @@ import {
 
 export default function ContactUs() {
   // const [emailContact1Focus, setEmailContact1Focus] = React.useState(false);
+
   const [firstNameContact1Focus, setFirstNameContact1Focus] =
     React.useState(false);
   const [lastNameContact1Focus, setLastNameContact1Focus] =
@@ -58,6 +59,7 @@ export default function ContactUs() {
     window.open(
       `mailto:blacktagdevs@gmail.com?subject=Service Inquiry: ${firstname} ${lastname} | ${company} &body= Dear BlackTagDevs, \n${body} \n Sincerely,\n ${firstname} ${lastname}`
     );
+]
   };
 
   return (
@@ -77,6 +79,7 @@ export default function ContactUs() {
                 <h4 className="description">
                   You need more information? Feel free to reach out to us, we
                   would love to hear from you!
+
                 </h4>
                 <div className="info info-horizontal">
                   <div className="icon icon-primary">
@@ -84,6 +87,7 @@ export default function ContactUs() {
                   </div>
                   <div className="description">
                     <h4 className="info-title">Location</h4>
+
                     <p className="description">
                       Atlanta,GA <br />
                       United States
@@ -174,6 +178,7 @@ export default function ContactUs() {
                           </FormGroup>
                         </Col>
                       </Row>
+
                       {/* <Row>
                         <Col md="6">
                           <label>First name</label>
@@ -263,6 +268,7 @@ export default function ContactUs() {
                         <Col
                           style={{ display: "flex", justifyContent: "center" }}
                         >
+
                           <Button
                             className="btn-round pull-center"
                             color="primary"
