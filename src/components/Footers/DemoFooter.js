@@ -51,24 +51,28 @@ export default function DemoFooter() {
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple"
                   color="default"
-                  href="https://twitter.com/creativetim"
+                  href="https://www.linkedin.com/company/blacktagdevs/"
+
                   id="tooltip39661217"
                   target="_blank"
                 >
                   <i className="fab fa-linkedin" />
                 </Button>
-                <UncontrolledTooltip delay={0} target="tooltip39661217">
+                {/* <UncontrolledTooltip delay={0} target="tooltip39661217">
+
                   Follow us
                 </UncontrolledTooltip>
                 <Button
                   className="btn-icon btn-neutral btn-round btn-simple ml-1"
                   color="default"
-                  href="https://www.facebook.com/creativetim"
+                  href="TODO"
+
                   id="tooltip206037619"
                   target="_blank"
                 >
                   <i className="fab fa-instagram" />
-                </Button>
+                </Button> */}
+
               </h3>
             </Col>
           </Row>

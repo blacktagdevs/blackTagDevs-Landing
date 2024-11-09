@@ -185,9 +185,12 @@ export default function Features() {
                   <div className="description">
                     <h3 className="info-title">Development</h3>
                     <p>
-                      The moment you use Black Kit, you know you’ve never felt
-                      anything like it. With a single use, this powerfull UI Kit
-                      lets you do more than ever before.
+                      Our development team designs and builds solutions that
+                      empower businesses to thrive in a multi-cloud environment.
+                      From fullstack engineering to CRM integration, our
+                      developers ensure that systems are both scalable and
+                      responsive, meeting the unique needs of every client.
+
                     </p>
                   </div>
                 </div>
@@ -198,9 +201,13 @@ export default function Features() {
                   <div className="description">
                     <h3 className="info-title">Security</h3>
                     <p>
-                      The moment you use Black Kit, you know you’ve never felt
-                      anything like it. With a single use, this powerfull UI Kit
-                      lets you do more than ever before.
+                      Security is at the core of what we do. Our cybersecurity
+                      experts work tirelessly to safeguard digital assets,
+                      implementing cutting-edge measures to protect against
+                      potential threats. By addressing risks proactively, we
+                      help businesses operate with confidence in an increasingly
+                      complex digital landscape.
+
                     </p>
                   </div>
                 </div>
@@ -210,10 +217,14 @@ export default function Features() {
                   </div>
                   <div className="description">
                     <h3 className="info-title">Mangement</h3>
-                    <p>
-                      The moment you use Black Kit, you know you’ve never felt
-                      anything like it. With a single use, this powerfull UI Kit
-                      lets you do more than ever before.
+                    <p style={{ textAlign: "unset" }}>
+                      Our product management team bridges the gap between
+                      innovation and strategy. With a focus on optimizing
+                      workflows, scaling DevOps, and enhancing user experience,
+                      our managers ensure that projects align with business
+                      goals, enabling organizations to drive growth and
+                      efficiency.
+
                     </p>
                   </div>
                 </div>

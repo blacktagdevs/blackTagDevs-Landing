@@ -11147,7 +11147,8 @@ button.bg-darker:focus {
 }
 
 .text-justify {
-  text-align: justify !important;
+  /* text-align: justify !important; */
+
 }
 
 .text-wrap {
@@ -18962,7 +18963,8 @@ a.badge-success.focus {
 }
 .info-horizontal .description {
   overflow: hidden;
-  text-align: justify;
+  /* text-align: justify; */
+
 }
 
 .icon.icon-primary {
@@ -19695,7 +19697,6 @@ html {
 .team-5 [class*="col-md-"]:nth-child(4) {
   margin-top: 95px;
 }
-
 
 .team-5 .card.card-profile .card-title + .category {
   margin-bottom: 0.625rem;

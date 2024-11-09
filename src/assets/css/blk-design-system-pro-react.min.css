@@ -10290,7 +10290,8 @@ button.bg-darker:focus {
     "Courier New", monospace !important;
 }
 .text-justify {
-  text-align: justify !important;
+  /* text-align: justify !important; */
+
 }
 .text-wrap {
   white-space: normal !important;
@@ -17621,7 +17622,7 @@ a.badge-success.focus {
 }
 .info-horizontal .description {
   overflow: hidden;
-  text-align: justify;
+
 }
 .icon.icon-primary {
   color: #e14eca;
